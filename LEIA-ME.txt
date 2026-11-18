@@ -1,0 +1,13 @@
+SITE MERCADÃO DOS ÓCULOS TATUÍ — VERSÃO 6 (CABEÇALHO APROVADO)
+
+1. Abra index.html para visualizar. Ao abrir localmente, o site mostra publicações reais de referência.
+2. A sincronização automática AINDA NÃO ESTÁ ATIVA: requer hospedagem, autorização da API Meta e secrets.
+3. Para ativar em GitHub Pages, crie repositório privado ou público conforme sua preferência, envie todo o conteúdo e habilite Pages. A hospedagem Pages exige atenção às regras de repositórios e limites do seu plano.
+4. Na Meta, obtenha um token com permissões adequadas de leitura de mídia da conta Instagram profissional e o ID correto da conta Instagram Graph API. A conta precisa estar vinculada à página do Facebook. Não cole tokens no HTML nem no chat.
+5. Em GitHub > Settings > Secrets and variables > Actions, crie INSTAGRAM_ACCESS_TOKEN e INSTAGRAM_ACCOUNT_ID.
+6. Em Actions, execute manualmente Atualizar Instagram e verifique instagram-feed.json. O agendamento tenta rodar a cada 6 horas; GitHub Actions pode atrasar execuções agendadas.
+7. Tokens podem expirar ou ser revogados. É necessário monitorar falhas e renovar credenciais. URLs de mídia do Instagram podem expirar; neste caso o cartão preserva o link para o post.
+8. Não copie automaticamente publicações com promoções antigas para banners permanentes. Verifique contratos de franquia e autorizações de imagem antes de publicar.
+9. A demonstração não inclui backend e não armazena credenciais. Para automação real, hospede o site e ative o workflow.
+
+STATUS ATUAL (18/11/2026): site e agendamento preparados; NÃO estão publicados nem sincronizando automaticamente. A conexão Windsor.ai dentro do ChatGPT não fornece, por si só, credenciais para o agendamento externo.
